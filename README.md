@@ -1,4 +1,4 @@
-XenonHD
+XenonHD-Revived
 ===========
 Blazing fast, Rock-Hard stability. 
 
@@ -37,7 +37,7 @@ Initializing the XenonHD Source:
 
 For initializing repo use:
 
-    repo init -u https://github.com/TeamHorizon/platform_manifest.git -b n
+    repo init -u https://github.com/XenonHD-Revived/platform_manifest.git -b n
 
 Syncing repo:
 
@@ -50,22 +50,22 @@ Compiling XenonHD
 Set up environment:
 
     . build/envsetup.sh
-    
+
 If your device is officially supported by TeamHorizon, you can do now:
 
     breakfast <device_codename>
-    
+
 ...to automatically pull all missing repositories. Then:
 
     brunch <device_codename>
-    
+
 ...to start compilation process.
 
 
 Adding support for new device
 ================
 
-If you want to be official maintainer and add XenonHD support for a new device you have to create these two files in device tree:
+If you want to add XenonHD support for a new device you have to create these two files in device tree:
 
 xenonhd.mk sample
 ----------
@@ -113,7 +113,7 @@ Also you need to specify which camera app you want to use with:
     PRODUCT_PACKAGES += \
       Camera2 \
       Snap
-      
+
 in one of your device's makefiles. Using the example above will give you both cameras installed.
 
 xenonhd.dependencies sample
