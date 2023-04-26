@@ -37,7 +37,7 @@ Initializing the XenonHD Source:
 
 For initializing repo use:
 
-    repo init -u https://github.com/XenonHD-Revived/platform_manifest.git -b n
+    repo init -u https://github.com/XenonHD-Revived/platform_manifest.git -b n --git-lfs
 
 Syncing repo:
 
