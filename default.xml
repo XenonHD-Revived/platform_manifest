@@ -578,7 +578,7 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="th" revision="n" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="xenon-rev" />
   <project path="system/extras" name="android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="android_system_extras_su" />
   <project path="system/firewalld" name="platform/system/firewalld" remote="aosp" />
