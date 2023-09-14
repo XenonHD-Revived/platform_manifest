@@ -88,7 +88,7 @@
   <project path="external/bash" name="android_external_bash" />
   <project path="external/bison" name="android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" remote="aosp" />
-  <project path="external/boringssl" name="android_external_boringssl" groups="pdk" />
+  <project path="external/boringssl" name="lin14-mGoms/android_external_boringssl" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" groups="pdk" />
   <project path="external/brctl" name="android_external_brctl" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
@@ -152,7 +152,7 @@
   <project path="external/fio" name="platform/external/fio" groups="pdk" remote="aosp" />
   <project path="external/flac" name="android_external_flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk" remote="aosp" />
-  <project path="external/freetype" name="android_external_freetype" groups="pdk" remote="lineage-rev" />
+  <project path="external/freetype" name="android_external_freetype" groups="pdk" revision="lineage-18.1" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk" />
   <project path="external/fuse" name="android_external_fuse" />
   <project path="external/gemmlowp" name="platform/external/gemmlowp" groups="pdk" remote="aosp" />
