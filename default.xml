@@ -317,7 +317,7 @@
   <project path="external/sonivox" name="android_external_sonivox" groups="pdk" remote="lineage-rev" />
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" />
   <project path="external/speex" name="android_external_speex" groups="pdk" />
-  <project path="external/sqlite" name="android_external_sqlite" groups="pdk" />
+  <project path="external/sqlite" name="lin14-mGoms/android_external_sqlite" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk" remote="aosp" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" />
