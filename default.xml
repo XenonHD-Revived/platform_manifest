@@ -575,7 +575,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" />
 
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="lineage-rev" />
-  <project path="system/ca-certificates" name="lin14-mGoms/android_system_ca-certificates" groups="pdk" remote="github" revision="android12-release" />
+  <project path="system/ca-certificates" name="syphyr/android_system_ca-certificates" groups="pdk" remote="github" revision="android12-release" />
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp" />
