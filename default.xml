@@ -38,7 +38,7 @@
            sync-j="6" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
-  <project path="art" name="android_art" groups="pdk" />
+  <project path="art" name="android_art" groups="pdk" remote="lineage-rev" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="lineage-rev" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
