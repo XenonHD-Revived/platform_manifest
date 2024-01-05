@@ -142,7 +142,7 @@
   <project path="external/fec" name="platform/external/fec" groups="pdk" remote="aosp" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="lineage-rev" />
   <project path="external/fio" name="platform/external/fio" groups="pdk" remote="aosp" />
-  <project path="external/flac" name="lin14-mGoms/android_external_flac" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/flac" name="android_external_flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk" remote="aosp" />
   <project path="external/freetype" name="android_external_freetype" groups="pdk" revision="lineage-18.1" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk" />
@@ -234,7 +234,7 @@
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk" remote="aosp" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk" remote="aosp" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk" remote="aosp" />
-  <project path="external/libvpx" name="lin14-mGoms/android_external_libvpx" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libvpx" name="android_external_libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" remote="aosp" />
   <project path="external/libweave" name="platform/external/libweave" groups="pdk" remote="aosp" />
   <project path="external/libxml2" name="android_external_libxml2" groups="pdk,libxml2" remote="lineage-rev" />
@@ -340,7 +340,7 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" remote="aosp" />
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" remote="aosp" />
-  <project path="external/webp" name="android_external_webp" groups="pdk,qcom_msm8x26" remote="laos" revision="lineage-18.1" />
+  <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" remote="aosp" />
